@@ -1,0 +1,11 @@
+--- origsrc/Audio-1.029/Play/Makefile.PL	2004-01-06 01:56:03.000000000 -0600
++++ src/Audio-1.029/Play/Makefile.PL	2008-09-09 19:33:40.974262100 -0500
+@@ -80,7 +80,7 @@
+      }
+     $driver = 'oss';
+    }
+-  elsif (/^(\w+bsd)$/i)
++  elsif (/^(cygwin|\w+bsd)$/i)
+    {
+     $driver = 'oss';
+    }

@@ -1,0 +1,4 @@
+CPAN_AUTHOR=ni-s
+inherit perl
+
+PATCH_URI="1.029-oss.patch"
